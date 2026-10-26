@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Tidal Manager (Unpackaged)": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

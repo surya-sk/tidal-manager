@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="src/TidalManager.App/TidalManager.App.csproj">
+    <Platform Solution="*|Any CPU" Project="x64" />
+  </Project>
+  <Project Path="src/TidalManager.Tidal/TidalManager.Tidal.csproj" />
+  <Project Path="src/TidalManager.Local/TidalManager.Local.csproj" />
+  <Project Path="src/TidalManager.Queue/TidalManager.Queue.csproj" />
+  <Project Path="tests/TidalManager.Tidal.Tests/TidalManager.Tidal.Tests.csproj" />
+  <Project Path="tests/TidalManager.Local.Tests/TidalManager.Local.Tests.csproj" />
+  <Project Path="tests/TidalManager.Queue.Tests/TidalManager.Queue.Tests.csproj" />
+</Solution>

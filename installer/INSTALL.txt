@@ -1,0 +1,21 @@
+TIDAL MANAGER FOR WINDOWS 11 (x64)
+
+1. Extract the entire ZIP to a folder on the target PC.
+2. In PowerShell, run .\Install-TidalManager.ps1 from that folder.
+   This installs for the current Windows user and creates a Start-menu shortcut.
+   If script execution is restricted, inspect the script first and use a
+   PowerShell session whose execution policy permits local scripts.
+3. Launch Tidal Manager from the Start menu. Open Settings, enter your own
+   TIDAL developer client ID, and sign in. Account/session data is per PC.
+4. Install tiddl separately, sign in to it, and check the executable path in
+   Settings. The app displays a warning when it cannot find tiddl.
+   Typical setup: install Python and ffmpeg, then run
+       py -m pip install tiddl
+       tiddl auth login
+   If tiddl is not on PATH, enter the full path to tiddl.exe in Settings.
+5. Set the download folder and player/SD-card root in Settings before syncing.
+
+The ZIP includes a self-contained WinUI/.NET executable; no .NET SDK or Visual
+Studio is needed on the target PC. It does not bundle tiddl, Python, ffmpeg,
+credentials, downloaded music, or a TIDAL account. It does not modify or move
+your existing music during installation.
